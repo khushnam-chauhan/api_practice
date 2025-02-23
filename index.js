@@ -2,13 +2,14 @@ const express= require("express");
 const app = express();
 const cors= require('cors');
 const todos=require('./data');
-app.use(cors({ origin: "*" }));
+app.use(cors());
 
 
 app.use(express.json());
-app.get('/todos',(req,res)=>{
+app.get("/todos", (req, res) => {
+    // res.setHeader("Access-Control-Allow-Origin", "*"); // Explicitly allow CORS
     res.json(todos);
-})
+  });
 
 app.listen(3000);
 

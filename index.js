@@ -2,7 +2,7 @@ const express= require("express");
 const app = express();
 const cors= require('cors');
 const todos=require('./data');
-app.use(cors());
+app.use(cors({ origin: "*" }));
 
 
 app.use(express.json());

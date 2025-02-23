@@ -1,0 +1,35 @@
+const todos = [
+    { id: 1, title: "Buy Groceries", description: "Get milk, eggs, and vegetables." },
+    { id: 2, title: "Complete React Project", description: "Finish frontend development task." },
+    { id: 3, title: "Workout", description: "Do 30-minute push-ups and squats." },
+    { id: 4, title: "Read a Book", description: "Read at least 10 pages of a book." },
+    { id: 5, title: "Call a Friend", description: "Catch up with an old friend over a call." },
+    { id: 6, title: "Learn a New Skill", description: "Watch a tutorial on JavaScript." },
+    { id: 7, title: "Meditate", description: "Practice 10 minutes of mindfulness meditation." },
+    { id: 8, title: "Write a Blog", description: "Write an article about web development." },
+    { id: 9, title: "Plan Weekly Goals", description: "Set clear goals for the upcoming week." },
+    { id: 10, title: "Organize Workspace", description: "Clean and declutter your workspace." },
+    { id: 11, title: "Cook a New Recipe", description: "Try cooking a new dish for dinner." },
+    { id: 12, title: "Watch a Documentary", description: "Watch an educational documentary." },
+    { id: 13, title: "Go for a Walk", description: "Take a 20-minute walk outside." },
+    { id: 14, title: "Practice Coding", description: "Solve at least 2 LeetCode problems." },
+    { id: 15, title: "Check Emails", description: "Respond to important emails." },
+    { id: 16, title: "Fix a Bug", description: "Debug and fix an issue in a project." },
+    { id: 17, title: "Journal Writing", description: "Write about today's experiences." },
+    { id: 18, title: "Learn About AI", description: "Read an article about AI advancements." },
+    { id: 19, title: "Do Laundry", description: "Wash and fold clothes." },
+    { id: 20, title: "Improve Resume", description: "Update your CV with new skills." },
+    { id: 21, title: "Work on Side Project", description: "Contribute to a personal project." },
+    { id: 22, title: "Optimize Website", description: "Improve website performance and SEO." },
+    { id: 23, title: "Backup Important Files", description: "Save important data to cloud storage." },
+    { id: 24, title: "Learn Git Commands", description: "Practice using git and GitHub." },
+    { id: 25, title: "Try a Coding Challenge", description: "Attempt a new programming challenge." },
+    { id: 26, title: "Set Up a New Habit", description: "Start a positive habit for productivity." },
+    { id: 27, title: "Listen to a Podcast", description: "Learn something new from an industry expert." },
+    { id: 28, title: "Help Someone", description: "Offer assistance to a colleague or friend." },
+    { id: 29, title: "Research New Tech Trends", description: "Stay updated with latest technology trends." },
+    { id: 30, title: "Plan the Next Day", description: "Prepare tasks for tomorrow in advance." }
+  ];
+  
+  module.exports = todos;
+  
